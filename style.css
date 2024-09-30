@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainWindow{
+    display: block;
+    width: 25%;
+    min-height: 400px;
+    background-color: lightgrey;
+    border: solid 1px;
+    border-radius: 5px;
+    box-shadow: 2px 2px;
+    padding: 30px;
+}
+.gameWindow{
+    background-color: azure;
+    border: solid 1px;
+    border-radius: 5px; 
+}
+.score{
+    display: flex ;
+    justify-content: center;
+    
+}
+.text{
+    border: solid 1px;
+    border-top: 0px;
+    margin: 0;
+}
+.window{
+height: 100px;
+}
+#choice{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+.button{
+    width: 80px;
+}
+.start{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
